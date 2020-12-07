@@ -6,7 +6,16 @@ namespace MedziagosKartojimas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+
+        }
+    }
+    public abstract class BaseClass
+    {
+         public string Name { get; }
+        public BaseClass()
+        {
+                
         }
     }
 }
