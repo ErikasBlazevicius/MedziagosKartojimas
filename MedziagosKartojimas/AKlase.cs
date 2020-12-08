@@ -30,7 +30,12 @@ namespace MedziagosKartojimas
 
         public override int NameKodas(int a)
         {
-            
+            int code = 0;
+            foreach (var raide in Name)
+            {
+                code += (int)raide * a;
+            }
+            return code;
         }
     }
 }
