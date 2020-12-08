@@ -8,8 +8,8 @@ namespace MedziagosKartojimas.Interface
     {
         public string ZodisBeBalsiu();
         public string ZodisBePriebalsiu();
-        public string ZodisSuPakeistomisBalsemis();
-        public string ZodisSuPakeistomisPriebalsemis();
+        public string ZodisSuPakeistomisBalsemis( char z);
+        public string ZodisSuPakeistomisPriebalsemis( int x);
 
     }
 }
